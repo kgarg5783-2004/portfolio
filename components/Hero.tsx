@@ -22,7 +22,6 @@ const Hero = () => {
                     </h2>
                     <p className="text-lg text-gray-300 max-w-2xl leading-relaxed">
                         I’m a full stack developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js), with additional experience in building robust web applications using PHP and Laravel. I enjoy turning complex problems into simple, efficient, and scalable solutions.
-
                         I’ve worked on developing responsive web applications, RESTful APIs, and dynamic websites, focusing on performance, clean architecture, and seamless user experience. Whether it’s building from scratch or improving existing systems, I aim to deliver reliable and maintainable code.
                     </p>
                     <div className="border border-blue-400 rounded-xl p-3 bg-white/5 backdrop-blur-sm w-150 h-25">
@@ -98,7 +97,8 @@ const Hero = () => {
                         <div className="group relative text-center">
                             <div className="mb-2 inline-block">
                                 <h3 className="text-4xl md:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-blue-400 to-blue-600">
-                                    50<span className="text-2xl ml-1 text-blue-400/60">+</span>
+                                    50
+                                    <span className="text-2xl ml-1 text-blue-400/60">+</span>
                                 </h3>
                             </div>
                             <p className="text-sm font-medium uppercase tracking-widest text-slate-500">
