@@ -6,22 +6,22 @@ import Footer from "../../components/footer";
 
 const TechnicalSkillsGrid = () => {
     const skills = [
-        { name: "React.js", yoe: "1.5 Years", level: 85, icon: "⚛️", category: "Frontend" },
-        { name: "Next.js", yoe: "1 Year", level: 80, icon: "▲", category: "Frontend" },
-        { name: "JavaScript", yoe: "3 Years", level: 90, icon: "🟨", category: "Core" },
-        { name: "TypeScript", yoe: "1.5 Years", level: 78, icon: "📘", category: "Core" },
-        { name: "HTML & CSS", yoe: "3 Years", level: 95, icon: "🎨", category: "Frontend" },
-        { name: "Tailwind CSS", yoe: "2 Years", level: 85, icon: "🌊", category: "Frontend" },
-        { name: "Node.js", yoe: "1.5 Years", level: 75, icon: "🟢", category: "Backend" },
-        { name: "PHP", yoe: "2 Years", level: 80, icon: "🐘", category: "Backend" },
-        { name: "Laravel", yoe: "1 Year", level: 70, icon: "🔥", category: "Backend" },
-        { name: "C#", yoe: "2 Years", level: 75, icon: "🎯", category: "Backend" },
-        { name: "SQL Server", yoe: "2 Years", level: 80, icon: "🗄️", category: "Database" },
-        { name: "MongoDB", yoe: "1 Year", level: 75, icon: "🍃", category: "Database" },
-        { name: "PostgreSQL", yoe: "1 Year", level: 72, icon: "🐘", category: "Database" },
-        { name: "Git/GitHub", yoe: "2.5 Years", level: 85, icon: "🐙", category: "Tools" },
-        { name: "Docker", yoe: "6 Months", level: 65, icon: "🐳", category: "DevOps" },
-        { name: "REST APIs", yoe: "2 Years", level: 82, icon: "🔗", category: "Backend" },
+        { name: "React.js", yoe: "4 month", level: 85, icon: "⚛️", category: "Frontend" },
+        { name: "Next.js", yoe: "4 month", level: 80, icon: "▲", category: "Frontend" },
+        { name: "JavaScript", yoe: "3 month", level: 90, icon: "🟨", category: "Core" },
+        { name: "TypeScript", yoe: "3 month", level: 78, icon: "📘", category: "Core" },
+        { name: "HTML & CSS", yoe: "6 month", level: 95, icon: "🎨", category: "Frontend" },
+        { name: "Tailwind CSS", yoe: "6 month", level: 85, icon: "🌊", category: "Frontend" },
+        { name: "Node.js", yoe: "6 month", level: 75, icon: "🟢", category: "Backend" },
+        { name: "PHP", yoe: "3 month", level: 80, icon: "🐘", category: "Backend" },
+        { name: "Laravel", yoe: "3 month", level: 70, icon: "🔥", category: "Backend" },
+        { name: "C#", yoe: "2 month", level: 75, icon: "🎯", category: "Backend" },
+        { name: "SQL Server", yoe: "6 month", level: 80, icon: "🗄️", category: "Database" },
+        { name: "MongoDB", yoe: "6 month", level: 75, icon: "🍃", category: "Database" },
+        { name: "PostgreSQL", yoe: "3 month", level: 72, icon: "🐘", category: "Database" },
+        { name: "Git/GitHub", yoe: "6 month", level: 85, icon: "🐙", category: "Tools" },
+        { name: "Docker", yoe: "6 month", level: 65, icon: "🐳", category: "DevOps" },
+        { name: "REST APIs", yoe: "6 month", level: 82, icon: "🔗", category: "Backend" },
     ];
 
     const [animatedCards, setAnimatedCards] = useState(new Set());
